@@ -1,0 +1,4 @@
+  include LICENSE
+  include *.rst
+  include tox.ini
+  recursive-include check_project *.py
