@@ -18,7 +18,7 @@ which would check /foo/bar/baz for the following:
 * /foo/bar/baz being in a git repository
 * /foo/bar/baz's git repository having an empty stash
 * /foo/bar/baz's git repository having remotes
-* /foo/bar/baz's git repository having no uncommited changes
+* /foo/bar/baz's git repository having no uncommitted changes
 * /foo/bar/baz's git repository having no unpushed commits
 
 The exit code of check_projects is 0 if all the checks pass, and 3 if any fail.
